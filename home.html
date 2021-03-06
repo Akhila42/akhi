@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		header{
+			height: 60px;
+			width: 100%;
+			display: flex;
+		}
+		.icon{
+			font-size: 50px; 
+            margin-left: auto;
+            padding-right: 30px;
+            color: gray;
+		}
+		h1{
+			color: #0dcaf0;
+		}
+		input{
+             width: 100%;
+             padding: 12px 20px;
+             margin: 8px 0;
+
+		}
+		.section{
+			background-color:#0dcaf0; 
+		}
+	</style>
+</head>
+<body>
+	<header class="col-sm-12 col-xl-12">
+	  <h1 class="py-2 ps-2">1Money</h1>
+	  <div class="icon">
+      <i class="fa fa-bars"></i>
+      </div>
+	</header>
+	<div class="section">
+		<center>
+			 <h2>Conductor details</h2>
+			<form class="col-sm-4" >
+				<input type="text" name="Bus Type" placeholder="Bus Type"><br><br>
+				<input type="number" name="Shift Type" placeholder="Shift Type"><br><br>
+				<input type="number" name="Bus Number" placeholder="Bus Number"><br><br>
+				<input type="number" name="Conductor No" placeholder="Conductor No"><br><br>
+				<input type="number" name="Schedule No" placeholder="Schedule No"><br><br>
+				<input type="number" name="Way Bill" placeholder="Way Bill"><br><br>
+				<button type="button" class="btn btn-secondary ps-4">Start Trip</button>
+			</form>
+	    </center>
+	</div>
+</body>
+</html>
